@@ -12,7 +12,7 @@ import br.com.dl.dl_delivery.repository.RestauranteCategoriaRepository;
 import br.com.dl.dl_delivery.utils.ServiceUtils;
 
 @SpringBootApplication
-public class WisedeliveryApplication implements CommandLineRunner{
+public class dl_deliveryApplication implements CommandLineRunner{
 
 	@Autowired
 	private RestauranteCategoriaRepository restauranteCategoriaRepository;
@@ -21,7 +21,7 @@ public class WisedeliveryApplication implements CommandLineRunner{
 	private ServiceUtils utils;
 
 	public static void main(String[] args) {
-		SpringApplication.run(WisedeliveryApplication.class, args);
+		SpringApplication.run(dl_deliveryApplication.class, args);
 	}
 
 	@Override
